@@ -1,6 +1,6 @@
 # FIFO-instance
 
-This repository provides all instance data used for *Optimizing metro timetabling and capacity decisions considering feeder buses*.
+This repository contains the data of the instances used for the computational experiments of the paper *Optimizing metro timetabling and capacity decisions considering feeder buses*.
 It contains input parameters and passenger demand data for both:
 
 - **Model MO** 
