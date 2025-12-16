@@ -15,7 +15,7 @@ FIFO-instance/
 ├── passenger_data_MO/
 └── passenger_data_FF/
 ```
-## 1. `instances_MO/` — JSON Input for Model MO
+## 1. `instances_MO/` JSON Input for Model MO
 
 This folder contains **32 JSON instance files** for **Model MO**:
 
@@ -23,7 +23,7 @@ This folder contains **32 JSON instance files** for **Model MO**:
 
 Each JSON file stores the complete model input parameters required for solving **Model MO**, including sets, capacities, headways, and other operational parameters.
 
-## 2. `instances_FF/` — JSON Input for Model FF
+## 2. `instances_FF/` JSON Input for Model FF
 
 This folder contains **96 JSON instance files** for **Model FF**:
 
@@ -34,7 +34,7 @@ They are grouped by the number of feeder lines:
 
 Each JSON file includes detailed operational parameters for metro lines and feeder lines, transfer station configuration, and planned arrival times of feeder buses.
 
-## 3. `passenger_data_MO/` — Passenger Demand for MO (32 Excel Files)
+## 3. `passenger_data_MO/` Passenger Demand for MO (32 Excel Files)
 
 This folder contains the metro passenger demand `p_{ijt}` associated with the 32 MO instances.
 
@@ -53,7 +53,7 @@ This folder contains the metro passenger demand `p_{ijt}` associated with the 32
 
 `i`: passenger boarding station; `j`: passenger alighting station; `t`: passenger arrival time step; `value`: number of arriving passengers
 
-## 4. `passenger_data_FF/` — Feeder Passenger Demand for FF (96 Excel Files)
+## 4. `passenger_data_FF/` Feeder Passenger Demand for FF (96 Excel Files)
 
 This folder contains the feeder passenger demand `q_{ijf}^l` associated with the 96 FF instances.
 
